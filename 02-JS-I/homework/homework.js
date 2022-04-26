@@ -28,32 +28,32 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código: str;
-  
+  return str;
 }
 
 function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código: x + y;
-  
+  return x + y;
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código: x - y;
-  
+  return x - y;
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código: x * y;
-  
+  return x * y;
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código: x / y;
-  
+  return x / y;
 }
 
 function sonIguales(x, y) {
@@ -64,8 +64,6 @@ function sonIguales(x, y) {
   } else {
     return false;
   }
-}
-  
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -79,9 +77,9 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num < 90) {
+  if(num < 90) {
     return true
-  }else {
+  } else {
     return false
   }
 }
@@ -90,32 +88,30 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num > 50) {
+  if(num > 50) {
     return true
-  }else {
+  } else {
     return false
   }
   }
   
-}
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  return x % y
+  return x / y
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 2 === 0) {
+  if(num % 2 === 0) {
     return true;
   } else {
     return false;
   } 
   }
-}
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
@@ -179,7 +175,7 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if.(numero === 0) {
+  if(numero === 0) {
     return false;
   }
   else if (numero > 0) {
@@ -248,7 +244,7 @@ function esVocal(letra){
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.legth > 1){
-    Return "Dato incorrecto"
+    return "Dato incorrecto"
   }
   if(letra === "a" || letra "e" || letra "i" ||letra "o" || letra "u"){
     return "es vocal";
