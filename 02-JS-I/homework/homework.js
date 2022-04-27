@@ -59,7 +59,8 @@ function divide(x, y) {
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
-  // Tu código: if (x=y) {
+  // Tu código: 
+  if (x=y) {
     return true;
   } else {
     return false;
@@ -156,7 +157,6 @@ function redondearNumero(num) {
   }
   return Match.round (num)
   }
-}
 
 function redondearHaciaArriba(num) {
   // Redondea "num" hacia arriba (al próximo entero) y devuélvelo
@@ -246,7 +246,7 @@ function esVocal(letra){
   if(letra.legth > 1){
     return "Dato incorrecto"
   }
-  if(letra === "a" || letra "e" || letra "i" ||letra "o" || letra "u"){
+  if(letra === "a" || letra === "e" || letra === "i" ||letra === "o" || letra === "u"){
     return "es vocal";
   }
   return "Dato incorrecto"
